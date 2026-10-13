@@ -1,10 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Structured and clean code to get each figure in the article
-
 Figures
-
 """
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
