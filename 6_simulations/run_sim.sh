@@ -72,7 +72,7 @@ xtx="X_matrix/outXTX/XtX_22.zarr/"
 # 3.1.parental_gibbs_sampler.py
 mkdir -p out_jodie/${name}
 #mod_parental
-srun python ${jodie}screen_full_test.py --iters 1000 --burnin 500 --n 2438 --p 16466 --k 4 --g 16466 --x ${x_dir} --xtx ${xtx} --y out_beta_y/y_${name}.txt --resultdir out_jodie/${name}/
+srun python ${jodie}jodie.py --iters 1000 --burnin 500 --n 2438 --p 16466 --k 4 --g 16466 --x ${x_dir} --xtx ${xtx} --y out_beta_y/y_${name}.txt --resultdir out_jodie/${name}/
 
 echo 'gibbs sampler jodie finished'
 
