@@ -6,7 +6,7 @@ import sys
 import os
 import math
 from collections import Counter
-from make_x.py import getGeno, getGeno_Haplo
+from make_x import getGeno, getGeno_Haplo
 import argparse
 
 def main(chro,path_trios,path_ids,path_genotype,X,out_dir):
